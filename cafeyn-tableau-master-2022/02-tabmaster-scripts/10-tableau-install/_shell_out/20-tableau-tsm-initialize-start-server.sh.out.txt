@@ -1,0 +1,40 @@
+Initializing the server...
+Job id is '1', timeout is 30 minutes.
+2% - Checking control plane services.
+5% - Validating that there are no pending changes.
+8% - Generating new asset key.
+10% - Saving asset key.
+13% - Generating passwords.
+16% - Generating secret keys.
+18% - Generating apigateway mutual SSL certificates.
+21% - Generating Apache Gateway Internal mutual SSL certificates.
+24% - Generating Unique Cluster Identifier.
+27% - Generating Search Server SSL certificate.
+29% - Generating Elastic Server SSL certificate.
+32% - Generating ActiveMQ Server SSL certificate.
+35% - Generating internal Metadata API mutual SSL certificates.
+37% - Generating key store.
+40% - Promoting configuration.
+43% - Waiting for services to reconfigure.
+45% - Initializing the topology.
+48% - Waiting for the maintenance app to start.
+51% - Initializing the temporary database instance.
+54% - Starting the temporary database instance.
+56% - Creating roles and databases.
+59% - Running migrations.
+62% - Localizing the default projects.
+64% - Stopping the temporary database instance.
+67% - Making the temporary database default.
+70% - Initializing the next active repository.
+72% - Enabling services needed for server initialization.
+75% - Connecting to the Backup/Restore service.
+78% - Saving asset key metadata.
+81% - Configuring search server.
+83% - Connecting to the Backup/Restore service.
+86% - Initializing Elastic Server.
+89% - Finalizing the topology.
+91% - Connecting to Vizportal Maintenance.
+94% - Rebuilding the search index.
+100% - Finalizing the initialization.
+
+Server was initialized successfully.

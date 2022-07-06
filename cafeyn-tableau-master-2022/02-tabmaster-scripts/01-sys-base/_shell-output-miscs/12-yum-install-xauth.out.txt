@@ -1,0 +1,9 @@
+[admansible@ip-10-10-16-80 master-scripts]$ bash 12-yum-install-xauth.sh
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: download.cf.centos.org
+ * extras: download.cf.centos.org
+ * updates: download.cf.centos.org
+Package 1:xorg-x11-xauth-1.0.9-1.el7.x86_64 already installed and latest version
+Nothing to do
+

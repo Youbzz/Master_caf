@@ -1,0 +1,52 @@
+[admansible@ip-10-10-16-80 master-scripts]$ bash 11-x11-forwarding-config.sh
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: download.cf.centos.org
+ * extras: download.cf.centos.org
+ * updates: download.cf.centos.org
+Resolving Dependencies
+--> Running transaction check
+---> Package xorg-x11-xauth.x86_64 1:1.0.9-1.el7 will be installed
+--> Processing Dependency: libXmuu.so.1()(64bit) for package: 1:xorg-x11-xauth-1.0.9-1.el7.x86_64
+--> Running transaction check
+---> Package libXmu.x86_64 0:1.1.2-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==============================================================================================================================================================================
+ Package                                       Arch                                  Version                                        Repository                           Size
+==============================================================================================================================================================================
+Installing:
+ xorg-x11-xauth                                x86_64                                1:1.0.9-1.el7                                  base                                 30 k
+Installing for dependencies:
+ libXmu                                        x86_64                                1.1.2-2.el7                                    base                                 71 k
+
+Transaction Summary
+==============================================================================================================================================================================
+Install  1 Package (+1 Dependent package)
+
+Total download size: 101 k
+Installed size: 216 k
+Downloading packages:
+(1/2): libXmu-1.1.2-2.el7.x86_64.rpm                                                                                                                   |  71 kB  00:00:00
+(2/2): xorg-x11-xauth-1.0.9-1.el7.x86_64.rpm                                                                                                           |  30 kB  00:00:00
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                         489 kB/s | 101 kB  00:00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libXmu-1.1.2-2.el7.x86_64                                                                                                                                  1/2
+  Installing : 1:xorg-x11-xauth-1.0.9-1.el7.x86_64                                                                                                                        2/2
+  Verifying  : libXmu-1.1.2-2.el7.x86_64                                                                                                                                  1/2
+  Verifying  : 1:xorg-x11-xauth-1.0.9-1.el7.x86_64                                                                                                                        2/2
+
+Installed:
+  xorg-x11-xauth.x86_64 1:1.0.9-1.el7
+
+Dependency Installed:
+  libXmu.x86_64 0:1.1.2-2.el7
+
+Complete!
+

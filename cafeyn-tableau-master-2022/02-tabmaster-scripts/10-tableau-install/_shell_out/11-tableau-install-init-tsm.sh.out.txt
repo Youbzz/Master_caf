@@ -1,0 +1,25 @@
+bash 11-tableau-install-init-tsm.sh
+initialize-tsm  initialize-tsm-common
+Initialising TSM
+Creating 'tsmadmin' group for TSM admin authorization
+Creating 'tableau' unprivileged user account
+Creating environment file...
+Creating directories and setting permissions...
+Using '/var/opt/tableau' as the data directory.
+Adding user 'adm-tab' to group 'tableau'...
+Adding user 'adm-tab' to group 'tsmadmin'...
+Added. Note: These group membership changes do not take effect in shells already open. For these to take effect, log out of the shell and log back in.
+Starting TSM services...
+Updating repository version in Tableau Server Coordination Service.
+TSM services started successfully
+Use the 'tsm' command to continue setting up Tableau Server.
+>> Tableau binary directory will be added to PATH for new shells. To get the
+>> updated path, either start a new session, or for bash users run:
+>> source /etc/profile.d/tableau_server.sh
+The TSM administrative web interface (and REST API) is now available at
+https://ip-172-31-30-150.eu-west-1.compute.internal:8850
+You can continue the configuration and initialization of Tableau server using either the TSM command line interface,
+or the web interface.
+You will be prompted to authenticate, or can log in using the username 'adm-tab', with the same password you used to log into this session. You could also use any username, with its password, from the administrative group in the domain.
+Done.
+Tableau server initialized

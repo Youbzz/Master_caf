@@ -1,0 +1,9 @@
+[admansible@ip-10-10-16-80 master-scripts]$ bash 15-yum-install-dbusx11.sh
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: download.cf.centos.org
+ * extras: download.cf.centos.org
+ * updates: download.cf.centos.org
+No package dbus-x11-1.10.24-13.el7_6.x86_64 available.
+Error: Nothing to do
+

@@ -1,0 +1,43 @@
+[admansible@ip-10-10-16-80 master-scripts]$ bash 08-yum-install-wget.sh
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: download.cf.centos.org
+ * extras: download.cf.centos.org
+ * updates: download.cf.centos.org
+base                                                                                                                                                   | 3.6 kB  00:00:00
+extras                                                                                                                                                 | 2.9 kB  00:00:00
+updates                                                                                                                                                | 2.9 kB  00:00:00
+updates/7/x86_64/primary_db                                                                                                                            |  13 MB  00:00:00
+Resolving Dependencies
+--> Running transaction check
+---> Package wget.x86_64 0:1.14-18.el7_6.1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==============================================================================================================================================================================
+ Package                               Arch                                    Version                                            Repository                             Size
+==============================================================================================================================================================================
+Installing:
+ wget                                  x86_64                                  1.14-18.el7_6.1                                    base                                  547 k
+
+Transaction Summary
+==============================================================================================================================================================================
+Install  1 Package
+
+Total download size: 547 k
+Installed size: 2.0 M
+Downloading packages:
+wget-1.14-18.el7_6.1.x86_64.rpm                                                                                                                        | 547 kB  00:00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : wget-1.14-18.el7_6.1.x86_64                                                                                                                                1/1
+  Verifying  : wget-1.14-18.el7_6.1.x86_64                                                                                                                                1/1
+
+Installed:
+  wget.x86_64 0:1.14-18.el7_6.1
+
+Complete!
+

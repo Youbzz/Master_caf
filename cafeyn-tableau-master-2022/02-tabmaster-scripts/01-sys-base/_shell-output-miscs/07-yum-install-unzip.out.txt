@@ -1,0 +1,39 @@
+[admansible@ip-10-10-16-80 master-scripts]$ bash 07-yum-install-unzip.sh
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: download.cf.centos.org
+ * extras: download.cf.centos.org
+ * updates: download.cf.centos.org
+Resolving Dependencies
+--> Running transaction check
+---> Package unzip.x86_64 0:6.0-22.el7_9 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==============================================================================================================================================================================
+ Package                                Arch                                    Version                                        Repository                                Size
+==============================================================================================================================================================================
+Installing:
+ unzip                                  x86_64                                  6.0-22.el7_9                                   updates                                  171 k
+
+Transaction Summary
+==============================================================================================================================================================================
+Install  1 Package
+
+Total download size: 171 k
+Installed size: 365 k
+Downloading packages:
+unzip-6.0-22.el7_9.x86_64.rpm                                                                                                                          | 171 kB  00:00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : unzip-6.0-22.el7_9.x86_64                                                                                                                                  1/1
+  Verifying  : unzip-6.0-22.el7_9.x86_64                                                                                                                                  1/1
+
+Installed:
+  unzip.x86_64 0:6.0-22.el7_9
+
+Complete!
+

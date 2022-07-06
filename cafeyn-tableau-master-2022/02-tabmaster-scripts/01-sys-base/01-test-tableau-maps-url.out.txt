@@ -1,0 +1,11 @@
+--2022-06-28 12:15:54--  https://maps.tableausoftware.com/tile/d/mode=named%7Cfrom=tableau1_2_base/mode=named%7Cfrom=tableau1_2_admin0_borders/mode=named%7Cfrom=tableau1_2_place_labels/ol/6/17/27.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7
+Resolving maps.tableausoftware.com (maps.tableausoftware.com)... 143.204.231.10, 143.204.231.57, 143.204.231.105, ...
+Connecting to maps.tableausoftware.com (maps.tableausoftware.com)|143.204.231.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11597 (11K) [image/png]
+Saving to: ‘01-test-tableau-maps-url.out.png’
+
+     0K .......... .                                          100%  419M=0s
+
+2022-06-28 12:15:55 (419 MB/s) - ‘01-test-tableau-maps-url.out.png’ saved [11597/11597]
+

@@ -1,0 +1,9 @@
+===== redirecting to http://localhost/auth
+===== Signed out
+===== Creating new session
+=====     Server:   http://localhost:80
+=====     Username: adm-tab
+===== Connecting to the server...
+===== Signing in...
+===== Succeeded
+

@@ -1,0 +1,15 @@
+Starting deployments asynchronous job.
+Job id is '0', timeout is 10 minutes.
+9% - Retrieving the topology to deploy.
+18% - Retrieving the configuration to deploy.
+27% - Validating the new topology.
+36% - Determining if server needs to be started.
+45% - Disabling all services.
+54% - Waiting for the services to stop.
+63% - Updating nodes to new topology.
+72% - Waiting for topology to be applied.
+81% - Updating nodes to new configuration.
+90% - Reconfiguring services.
+100% - Waiting for services to reconfigure.
+Successfully deployed nodes with updated configuration and topology version.
+

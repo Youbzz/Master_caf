@@ -1,0 +1,417 @@
+[admansible@ip-10-10-16-80 master-scripts]$ bash 13-yum-install-gedit.sh
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: download.cf.centos.org
+ * extras: download.cf.centos.org
+ * updates: download.cf.centos.org
+Resolving Dependencies
+--> Running transaction check
+---> Package gedit.x86_64 2:3.28.1-3.el7 will be installed
+--> Processing Dependency: gtksourceview3(x86-64) >= 3.22.0 for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: gspell(x86-64) >= 0.2.5 for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: zenity for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: libpeas-loader-python(x86-64) for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: gvfs for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: libpeas-gtk-1.0.so.0()(64bit) for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: libpeas-1.0.so.0()(64bit) for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: libgtksourceview-3.0.so.1()(64bit) for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: libgspell-1.so.1()(64bit) for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Processing Dependency: libenchant.so.1()(64bit) for package: 2:gedit-3.28.1-3.el7.x86_64
+--> Running transaction check
+---> Package enchant.x86_64 1:1.6.0-8.el7 will be installed
+--> Processing Dependency: libhunspell-1.3.so.0()(64bit) for package: 1:enchant-1.6.0-8.el7.x86_64
+---> Package gspell.x86_64 0:1.6.1-1.el7 will be installed
+--> Processing Dependency: iso-codes for package: gspell-1.6.1-1.el7.x86_64
+---> Package gtksourceview3.x86_64 0:3.24.8-2.el7 will be installed
+---> Package gvfs.x86_64 0:1.36.2-5.el7_9 will be installed
+--> Processing Dependency: gvfs-client(x86-64) = 1.36.2-5.el7_9 for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: udisks2 >= 1.97 for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libcdio_paranoia.so.1(CDIO_PARANOIA_1)(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libcdio_cdda.so.1(CDIO_CDDA_1)(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libcdio.so.15(CDIO_15)(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: desktop-file-utils for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: desktop-file-utils for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libudisks2.so.0()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libsecret-1.so.0()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libgvfscommon.so()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libgudev-1.0.so.0()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libgcr-base-3.so.1()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libgck-1.so.0()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libcdio_paranoia.so.1()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libcdio_cdda.so.1()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libcdio.so.15()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libbluray.so.1()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+--> Processing Dependency: libavahi-glib.so.1()(64bit) for package: gvfs-1.36.2-5.el7_9.x86_64
+---> Package libpeas.x86_64 0:1.22.0-1.el7 will be installed
+---> Package libpeas-gtk.x86_64 0:1.22.0-1.el7 will be installed
+---> Package libpeas-loader-python.x86_64 0:1.22.0-1.el7 will be installed
+--> Processing Dependency: python-gobject for package: libpeas-loader-python-1.22.0-1.el7.x86_64
+---> Package zenity.x86_64 0:3.28.1-1.el7 will be installed
+--> Processing Dependency: libnotify.so.4()(64bit) for package: zenity-3.28.1-1.el7.x86_64
+--> Running transaction check
+---> Package avahi-glib.x86_64 0:0.6.31-20.el7 will be installed
+---> Package desktop-file-utils.x86_64 0:0.23-2.el7 will be installed
+--> Processing Dependency: emacs-filesystem for package: desktop-file-utils-0.23-2.el7.x86_64
+---> Package gcr.x86_64 0:3.28.0-1.el7 will be installed
+---> Package gvfs-client.x86_64 0:1.36.2-5.el7_9 will be installed
+---> Package hunspell.x86_64 0:1.3.2-16.el7 will be installed
+--> Processing Dependency: hunspell-en-US for package: hunspell-1.3.2-16.el7.x86_64
+---> Package iso-codes.noarch 0:3.46-2.el7 will be installed
+--> Processing Dependency: xml-common for package: iso-codes-3.46-2.el7.noarch
+---> Package libbluray.x86_64 0:0.2.3-6.el7 will be installed
+---> Package libcdio.x86_64 0:0.92-3.el7 will be installed
+---> Package libcdio-paranoia.x86_64 0:10.2+0.90-11.el7 will be installed
+---> Package libgudev1.x86_64 0:219-78.el7_9.3 will be installed
+--> Processing Dependency: systemd-libs = 219-78.el7_9.3 for package: libgudev1-219-78.el7_9.3.x86_64
+---> Package libnotify.x86_64 0:0.7.7-1.el7 will be installed
+---> Package libsecret.x86_64 0:0.18.6-1.el7 will be installed
+---> Package libudisks2.x86_64 0:2.8.4-1.el7 will be installed
+---> Package python-gobject.x86_64 0:3.22.0-1.el7_4.1 will be installed
+--> Processing Dependency: pycairo(x86-64) for package: python-gobject-3.22.0-1.el7_4.1.x86_64
+---> Package udisks2.x86_64 0:2.8.4-1.el7 will be installed
+--> Processing Dependency: libblockdev-swap >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev-part >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev-mdraid >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev-loop >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev-fs >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev-crypto >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev >= 2.13 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libatasmart >= 0.17 for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: gdisk for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: dosfstools for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libblockdev.so.2()(64bit) for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libbd_utils.so.2()(64bit) for package: udisks2-2.8.4-1.el7.x86_64
+--> Processing Dependency: libatasmart.so.4()(64bit) for package: udisks2-2.8.4-1.el7.x86_64
+--> Running transaction check
+---> Package dosfstools.x86_64 0:3.0.20-10.el7 will be installed
+---> Package emacs-filesystem.noarch 1:24.3-23.el7 will be installed
+---> Package gdisk.x86_64 0:0.8.10-3.el7 will be installed
+---> Package hunspell-en-US.noarch 0:0.20121024-6.el7 will be installed
+---> Package libatasmart.x86_64 0:0.19-6.el7 will be installed
+---> Package libblockdev.x86_64 0:2.18-5.el7 will be installed
+---> Package libblockdev-crypto.x86_64 0:2.18-5.el7 will be installed
+--> Processing Dependency: libcryptsetup.so.12(CRYPTSETUP_2.0)(64bit) for package: libblockdev-crypto-2.18-5.el7.x86_64
+--> Processing Dependency: libvolume_key.so.1()(64bit) for package: libblockdev-crypto-2.18-5.el7.x86_64
+--> Processing Dependency: libcryptsetup.so.12()(64bit) for package: libblockdev-crypto-2.18-5.el7.x86_64
+---> Package libblockdev-fs.x86_64 0:2.18-5.el7 will be installed
+--> Processing Dependency: device-mapper-multipath for package: libblockdev-fs-2.18-5.el7.x86_64
+---> Package libblockdev-loop.x86_64 0:2.18-5.el7 will be installed
+---> Package libblockdev-mdraid.x86_64 0:2.18-5.el7 will be installed
+--> Processing Dependency: mdadm for package: libblockdev-mdraid-2.18-5.el7.x86_64
+--> Processing Dependency: libbytesize.so.1()(64bit) for package: libblockdev-mdraid-2.18-5.el7.x86_64
+---> Package libblockdev-part.x86_64 0:2.18-5.el7 will be installed
+---> Package libblockdev-swap.x86_64 0:2.18-5.el7 will be installed
+---> Package libblockdev-utils.x86_64 0:2.18-5.el7 will be installed
+---> Package pycairo.x86_64 0:1.8.10-8.el7 will be installed
+---> Package systemd-libs.x86_64 0:219-57.el7 will be updated
+--> Processing Dependency: systemd-libs = 219-57.el7 for package: systemd-219-57.el7.x86_64
+---> Package systemd-libs.x86_64 0:219-78.el7_9.3 will be an update
+---> Package xml-common.noarch 0:0.6.3-39.el7 will be installed
+--> Running transaction check
+---> Package cryptsetup-libs.x86_64 0:1.7.4-4.el7 will be updated
+---> Package cryptsetup-libs.x86_64 0:2.0.3-6.el7 will be an update
+--> Processing Dependency: libjson-c.so.2()(64bit) for package: cryptsetup-libs-2.0.3-6.el7.x86_64
+---> Package device-mapper-multipath.x86_64 0:0.4.9-135.el7_9 will be installed
+--> Processing Dependency: kpartx = 0.4.9-135.el7_9 for package: device-mapper-multipath-0.4.9-135.el7_9.x86_64
+--> Processing Dependency: device-mapper-multipath-libs = 0.4.9-135.el7_9 for package: device-mapper-multipath-0.4.9-135.el7_9.x86_64
+--> Processing Dependency: libmultipath.so.0()(64bit) for package: device-mapper-multipath-0.4.9-135.el7_9.x86_64
+--> Processing Dependency: libmpathpersist.so.0()(64bit) for package: device-mapper-multipath-0.4.9-135.el7_9.x86_64
+--> Processing Dependency: libmpathcmd.so.0()(64bit) for package: device-mapper-multipath-0.4.9-135.el7_9.x86_64
+---> Package libbytesize.x86_64 0:1.2-1.el7 will be installed
+--> Processing Dependency: libmpfr.so.4()(64bit) for package: libbytesize-1.2-1.el7.x86_64
+---> Package mdadm.x86_64 0:4.1-8.el7_9 will be installed
+--> Processing Dependency: libreport-filesystem for package: mdadm-4.1-8.el7_9.x86_64
+---> Package systemd.x86_64 0:219-57.el7 will be updated
+--> Processing Dependency: systemd = 219-57.el7 for package: systemd-sysv-219-57.el7.x86_64
+---> Package systemd.x86_64 0:219-78.el7_9.3 will be an update
+---> Package volume_key-libs.x86_64 0:0.3.9-9.el7 will be installed
+--> Running transaction check
+---> Package device-mapper-multipath-libs.x86_64 0:0.4.9-135.el7_9 will be installed
+--> Processing Dependency: libaio.so.1(LIBAIO_0.4)(64bit) for package: device-mapper-multipath-libs-0.4.9-135.el7_9.x86_64
+--> Processing Dependency: libaio.so.1(LIBAIO_0.1)(64bit) for package: device-mapper-multipath-libs-0.4.9-135.el7_9.x86_64
+--> Processing Dependency: libaio.so.1()(64bit) for package: device-mapper-multipath-libs-0.4.9-135.el7_9.x86_64
+---> Package json-c.x86_64 0:0.11-4.el7_0 will be installed
+---> Package kpartx.x86_64 0:0.4.9-119.el7 will be updated
+---> Package kpartx.x86_64 0:0.4.9-135.el7_9 will be an update
+---> Package libreport-filesystem.x86_64 0:2.1.11-53.el7.centos will be installed
+---> Package mpfr.x86_64 0:3.1.1-4.el7 will be installed
+---> Package systemd-sysv.x86_64 0:219-57.el7 will be updated
+---> Package systemd-sysv.x86_64 0:219-78.el7_9.3 will be an update
+--> Running transaction check
+---> Package libaio.x86_64 0:0.3.109-13.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+==============================================================================================================================================================================
+ Package                                               Arch                            Version                                         Repository                        Size
+==============================================================================================================================================================================
+Installing:
+ gedit                                                 x86_64                          2:3.28.1-3.el7                                  base                             2.5 M
+Installing for dependencies:
+ avahi-glib                                            x86_64                          0.6.31-20.el7                                   base                              25 k
+ desktop-file-utils                                    x86_64                          0.23-2.el7                                      base                              67 k
+ device-mapper-multipath                               x86_64                          0.4.9-135.el7_9                                 updates                          148 k
+ device-mapper-multipath-libs                          x86_64                          0.4.9-135.el7_9                                 updates                          268 k
+ dosfstools                                            x86_64                          3.0.20-10.el7                                   base                             101 k
+ emacs-filesystem                                      noarch                          1:24.3-23.el7                                   base                              58 k
+ enchant                                               x86_64                          1:1.6.0-8.el7                                   base                              55 k
+ gcr                                                   x86_64                          3.28.0-1.el7                                    base                             677 k
+ gdisk                                                 x86_64                          0.8.10-3.el7                                    base                             190 k
+ gspell                                                x86_64                          1.6.1-1.el7                                     base                              91 k
+ gtksourceview3                                        x86_64                          3.24.8-2.el7                                    base                             585 k
+ gvfs                                                  x86_64                          1.36.2-5.el7_9                                  updates                          354 k
+ gvfs-client                                           x86_64                          1.36.2-5.el7_9                                  updates                          799 k
+ hunspell                                              x86_64                          1.3.2-16.el7                                    base                             223 k
+ hunspell-en-US                                        noarch                          0.20121024-6.el7                                base                             190 k
+ iso-codes                                             noarch                          3.46-2.el7                                      base                             2.7 M
+ json-c                                                x86_64                          0.11-4.el7_0                                    base                              31 k
+ libaio                                                x86_64                          0.3.109-13.el7                                  base                              24 k
+ libatasmart                                           x86_64                          0.19-6.el7                                      base                              43 k
+ libblockdev                                           x86_64                          2.18-5.el7                                      base                             119 k
+ libblockdev-crypto                                    x86_64                          2.18-5.el7                                      base                              60 k
+ libblockdev-fs                                        x86_64                          2.18-5.el7                                      base                              66 k
+ libblockdev-loop                                      x86_64                          2.18-5.el7                                      base                              51 k
+ libblockdev-mdraid                                    x86_64                          2.18-5.el7                                      base                              57 k
+ libblockdev-part                                      x86_64                          2.18-5.el7                                      base                              60 k
+ libblockdev-swap                                      x86_64                          2.18-5.el7                                      base                              52 k
+ libblockdev-utils                                     x86_64                          2.18-5.el7                                      base                              58 k
+ libbluray                                             x86_64                          0.2.3-6.el7                                     base                             135 k
+ libbytesize                                           x86_64                          1.2-1.el7                                       base                              52 k
+ libcdio                                               x86_64                          0.92-3.el7                                      base                             236 k
+ libcdio-paranoia                                      x86_64                          10.2+0.90-11.el7                                base                              70 k
+ libgudev1                                             x86_64                          219-78.el7_9.3                                  updates                          109 k
+ libnotify                                             x86_64                          0.7.7-1.el7                                     base                              39 k
+ libpeas                                               x86_64                          1.22.0-1.el7                                    base                             113 k
+ libpeas-gtk                                           x86_64                          1.22.0-1.el7                                    base                              29 k
+ libpeas-loader-python                                 x86_64                          1.22.0-1.el7                                    base                              20 k
+ libreport-filesystem                                  x86_64                          2.1.11-53.el7.centos                            base                              41 k
+ libsecret                                             x86_64                          0.18.6-1.el7                                    base                             153 k
+ libudisks2                                            x86_64                          2.8.4-1.el7                                     base                             129 k
+ mdadm                                                 x86_64                          4.1-8.el7_9                                     updates                          440 k
+ mpfr                                                  x86_64                          3.1.1-4.el7                                     base                             203 k
+ pycairo                                               x86_64                          1.8.10-8.el7                                    base                             157 k
+ python-gobject                                        x86_64                          3.22.0-1.el7_4.1                                base                              16 k
+ udisks2                                               x86_64                          2.8.4-1.el7                                     base                             441 k
+ volume_key-libs                                       x86_64                          0.3.9-9.el7                                     base                             141 k
+ xml-common                                            noarch                          0.6.3-39.el7                                    base                              26 k
+ zenity                                                x86_64                          3.28.1-1.el7                                    base                             4.0 M
+Updating for dependencies:
+ cryptsetup-libs                                       x86_64                          2.0.3-6.el7                                     base                             339 k
+ kpartx                                                x86_64                          0.4.9-135.el7_9                                 updates                           81 k
+ systemd                                               x86_64                          219-78.el7_9.3                                  updates                          5.1 M
+ systemd-libs                                          x86_64                          219-78.el7_9.3                                  updates                          418 k
+ systemd-sysv                                          x86_64                          219-78.el7_9.3                                  updates                           97 k
+
+Transaction Summary
+==============================================================================================================================================================================
+Install  1 Package  (+47 Dependent packages)
+Upgrade             (  5 Dependent packages)
+
+Total download size: 22 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+(1/53): avahi-glib-0.6.31-20.el7.x86_64.rpm                                                                                                            |  25 kB  00:00:00
+(2/53): desktop-file-utils-0.23-2.el7.x86_64.rpm                                                                                                       |  67 kB  00:00:00
+(3/53): dosfstools-3.0.20-10.el7.x86_64.rpm                                                                                                            | 101 kB  00:00:00
+(4/53): cryptsetup-libs-2.0.3-6.el7.x86_64.rpm                                                                                                         | 339 kB  00:00:00
+(5/53): emacs-filesystem-24.3-23.el7.noarch.rpm                                                                                                        |  58 kB  00:00:00
+(6/53): enchant-1.6.0-8.el7.x86_64.rpm                                                                                                                 |  55 kB  00:00:00
+(7/53): gcr-3.28.0-1.el7.x86_64.rpm                                                                                                                    | 677 kB  00:00:00
+(8/53): gdisk-0.8.10-3.el7.x86_64.rpm                                                                                                                  | 190 kB  00:00:00
+(9/53): gspell-1.6.1-1.el7.x86_64.rpm                                                                                                                  |  91 kB  00:00:00
+(10/53): gtksourceview3-3.24.8-2.el7.x86_64.rpm                                                                                                        | 585 kB  00:00:00
+(11/53): gedit-3.28.1-3.el7.x86_64.rpm                                                                                                                 | 2.5 MB  00:00:00
+(12/53): device-mapper-multipath-0.4.9-135.el7_9.x86_64.rpm                                                                                            | 148 kB  00:00:00
+(13/53): gvfs-1.36.2-5.el7_9.x86_64.rpm                                                                                                                | 354 kB  00:00:00
+(14/53): device-mapper-multipath-libs-0.4.9-135.el7_9.x86_64.rpm                                                                                       | 268 kB  00:00:00
+(15/53): hunspell-1.3.2-16.el7.x86_64.rpm                                                                                                              | 223 kB  00:00:00
+(16/53): hunspell-en-US-0.20121024-6.el7.noarch.rpm                                                                                                    | 190 kB  00:00:00
+(17/53): json-c-0.11-4.el7_0.x86_64.rpm                                                                                                                |  31 kB  00:00:00
+(18/53): libaio-0.3.109-13.el7.x86_64.rpm                                                                                                              |  24 kB  00:00:00
+(19/53): libatasmart-0.19-6.el7.x86_64.rpm                                                                                                             |  43 kB  00:00:00
+(20/53): iso-codes-3.46-2.el7.noarch.rpm                                                                                                               | 2.7 MB  00:00:00
+(21/53): libblockdev-2.18-5.el7.x86_64.rpm                                                                                                             | 119 kB  00:00:00
+(22/53): libblockdev-crypto-2.18-5.el7.x86_64.rpm                                                                                                      |  60 kB  00:00:00
+(23/53): libblockdev-loop-2.18-5.el7.x86_64.rpm                                                                                                        |  51 kB  00:00:00
+(24/53): kpartx-0.4.9-135.el7_9.x86_64.rpm                                                                                                             |  81 kB  00:00:00
+(25/53): gvfs-client-1.36.2-5.el7_9.x86_64.rpm                                                                                                         | 799 kB  00:00:00
+(26/53): libblockdev-fs-2.18-5.el7.x86_64.rpm                                                                                                          |  66 kB  00:00:00
+(27/53): libblockdev-part-2.18-5.el7.x86_64.rpm                                                                                                        |  60 kB  00:00:00
+(28/53): libblockdev-mdraid-2.18-5.el7.x86_64.rpm                                                                                                      |  57 kB  00:00:00
+(29/53): libblockdev-utils-2.18-5.el7.x86_64.rpm                                                                                                       |  58 kB  00:00:00
+(30/53): libblockdev-swap-2.18-5.el7.x86_64.rpm                                                                                                        |  52 kB  00:00:00
+(31/53): libbluray-0.2.3-6.el7.x86_64.rpm                                                                                                              | 135 kB  00:00:00
+(32/53): libcdio-0.92-3.el7.x86_64.rpm                                                                                                                 | 236 kB  00:00:00
+(33/53): libgudev1-219-78.el7_9.3.x86_64.rpm                                                                                                           | 109 kB  00:00:00
+(34/53): libbytesize-1.2-1.el7.x86_64.rpm                                                                                                              |  52 kB  00:00:00
+(35/53): libnotify-0.7.7-1.el7.x86_64.rpm                                                                                                              |  39 kB  00:00:00
+(36/53): libpeas-1.22.0-1.el7.x86_64.rpm                                                                                                               | 113 kB  00:00:00
+(37/53): libpeas-gtk-1.22.0-1.el7.x86_64.rpm                                                                                                           |  29 kB  00:00:00
+(38/53): libpeas-loader-python-1.22.0-1.el7.x86_64.rpm                                                                                                 |  20 kB  00:00:00
+(39/53): libreport-filesystem-2.1.11-53.el7.centos.x86_64.rpm                                                                                          |  41 kB  00:00:00
+(40/53): libcdio-paranoia-10.2+0.90-11.el7.x86_64.rpm                                                                                                  |  70 kB  00:00:00
+(41/53): mdadm-4.1-8.el7_9.x86_64.rpm                                                                                                                  | 440 kB  00:00:00
+(42/53): libudisks2-2.8.4-1.el7.x86_64.rpm                                                                                                             | 129 kB  00:00:00
+(43/53): mpfr-3.1.1-4.el7.x86_64.rpm                                                                                                                   | 203 kB  00:00:00
+(44/53): pycairo-1.8.10-8.el7.x86_64.rpm                                                                                                               | 157 kB  00:00:00
+(45/53): libsecret-0.18.6-1.el7.x86_64.rpm                                                                                                             | 153 kB  00:00:01
+(46/53): systemd-libs-219-78.el7_9.3.x86_64.rpm                                                                                                        | 418 kB  00:00:00
+(47/53): systemd-sysv-219-78.el7_9.3.x86_64.rpm                                                                                                        |  97 kB  00:00:00
+(48/53): systemd-219-78.el7_9.3.x86_64.rpm                                                                                                             | 5.1 MB  00:00:00
+(49/53): udisks2-2.8.4-1.el7.x86_64.rpm                                                                                                                | 441 kB  00:00:00
+(50/53): python-gobject-3.22.0-1.el7_4.1.x86_64.rpm                                                                                                    |  16 kB  00:00:00
+(51/53): xml-common-0.6.3-39.el7.noarch.rpm                                                                                                            |  26 kB  00:00:00
+(52/53): zenity-3.28.1-1.el7.x86_64.rpm                                                                                                                | 4.0 MB  00:00:00
+(53/53): volume_key-libs-0.3.9-9.el7.x86_64.rpm                                                                                                        | 141 kB  00:00:00
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                         3.9 MB/s |  22 MB  00:00:05
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : systemd-libs-219-78.el7_9.3.x86_64                                                                                                                        1/58
+  Installing : libblockdev-utils-2.18-5.el7.x86_64                                                                                                                       2/58
+  Installing : libpeas-1.22.0-1.el7.x86_64                                                                                                                               3/58
+  Installing : libgudev1-219-78.el7_9.3.x86_64                                                                                                                           4/58
+  Installing : gdisk-0.8.10-3.el7.x86_64                                                                                                                                 5/58
+  Installing : libcdio-0.92-3.el7.x86_64                                                                                                                                 6/58
+  Installing : libudisks2-2.8.4-1.el7.x86_64                                                                                                                             7/58
+  Installing : libcdio-paranoia-10.2+0.90-11.el7.x86_64                                                                                                                  8/58
+  Installing : libpeas-gtk-1.22.0-1.el7.x86_64                                                                                                                           9/58
+  Installing : libblockdev-swap-2.18-5.el7.x86_64                                                                                                                       10/58
+  Installing : libblockdev-loop-2.18-5.el7.x86_64                                                                                                                       11/58
+  Installing : libblockdev-2.18-5.el7.x86_64                                                                                                                            12/58
+  Installing : libatasmart-0.19-6.el7.x86_64                                                                                                                            13/58
+  Installing : hunspell-1.3.2-16.el7.x86_64                                                                                                                             14/58
+  Installing : hunspell-en-US-0.20121024-6.el7.noarch                                                                                                                   15/58
+  Installing : 1:enchant-1.6.0-8.el7.x86_64                                                                                                                             16/58
+  Installing : gcr-3.28.0-1.el7.x86_64                                                                                                                                  17/58
+  Updating   : kpartx-0.4.9-135.el7_9.x86_64                                                                                                                            18/58
+  Installing : xml-common-0.6.3-39.el7.noarch                                                                                                                           19/58
+  Installing : iso-codes-3.46-2.el7.noarch                                                                                                                              20/58
+  Installing : gspell-1.6.1-1.el7.x86_64                                                                                                                                21/58
+  Installing : gvfs-client-1.36.2-5.el7_9.x86_64                                                                                                                        22/58
+  Installing : libbluray-0.2.3-6.el7.x86_64                                                                                                                             23/58
+  Installing : gtksourceview3-3.24.8-2.el7.x86_64                                                                                                                       24/58
+  Installing : mpfr-3.1.1-4.el7.x86_64                                                                                                                                  25/58
+  Installing : libbytesize-1.2-1.el7.x86_64                                                                                                                             26/58
+  Installing : json-c-0.11-4.el7_0.x86_64                                                                                                                               27/58
+  Updating   : cryptsetup-libs-2.0.3-6.el7.x86_64                                                                                                                       28/58
+  Updating   : systemd-219-78.el7_9.3.x86_64                                                                                                                            29/58
+  Updating   : systemd-sysv-219-78.el7_9.3.x86_64                                                                                                                       30/58
+  Installing : volume_key-libs-0.3.9-9.el7.x86_64                                                                                                                       31/58
+  Installing : libblockdev-crypto-2.18-5.el7.x86_64                                                                                                                     32/58
+  Installing : libreport-filesystem-2.1.11-53.el7.centos.x86_64                                                                                                         33/58
+  Installing : mdadm-4.1-8.el7_9.x86_64                                                                                                                                 34/58
+  Installing : libblockdev-mdraid-2.18-5.el7.x86_64                                                                                                                     35/58
+  Installing : libaio-0.3.109-13.el7.x86_64                                                                                                                             36/58
+  Installing : device-mapper-multipath-libs-0.4.9-135.el7_9.x86_64                                                                                                      37/58
+  Installing : device-mapper-multipath-0.4.9-135.el7_9.x86_64                                                                                                           38/58
+  Installing : libblockdev-part-2.18-5.el7.x86_64                                                                                                                       39/58
+  Installing : libblockdev-fs-2.18-5.el7.x86_64                                                                                                                         40/58
+  Installing : libsecret-0.18.6-1.el7.x86_64                                                                                                                            41/58
+  Installing : pycairo-1.8.10-8.el7.x86_64                                                                                                                              42/58
+  Installing : python-gobject-3.22.0-1.el7_4.1.x86_64                                                                                                                   43/58
+  Installing : libpeas-loader-python-1.22.0-1.el7.x86_64                                                                                                                44/58
+  Installing : 1:emacs-filesystem-24.3-23.el7.noarch                                                                                                                    45/58
+  Installing : desktop-file-utils-0.23-2.el7.x86_64                                                                                                                     46/58
+  Installing : libnotify-0.7.7-1.el7.x86_64                                                                                                                             47/58
+  Installing : zenity-3.28.1-1.el7.x86_64                                                                                                                               48/58
+  Installing : avahi-glib-0.6.31-20.el7.x86_64                                                                                                                          49/58
+  Installing : dosfstools-3.0.20-10.el7.x86_64                                                                                                                          50/58
+  Installing : udisks2-2.8.4-1.el7.x86_64                                                                                                                               51/58
+  Installing : gvfs-1.36.2-5.el7_9.x86_64                                                                                                                               52/58
+  Installing : 2:gedit-3.28.1-3.el7.x86_64                                                                                                                              53/58
+  Cleanup    : systemd-sysv-219-57.el7.x86_64                                                                                                                           54/58
+  Cleanup    : systemd-219-57.el7.x86_64                                                                                                                                55/58
+  Cleanup    : cryptsetup-libs-1.7.4-4.el7.x86_64                                                                                                                       56/58
+  Cleanup    : systemd-libs-219-57.el7.x86_64                                                                                                                           57/58
+  Cleanup    : kpartx-0.4.9-119.el7.x86_64                                                                                                                              58/58
+  Verifying  : libpeas-loader-python-1.22.0-1.el7.x86_64                                                                                                                 1/58
+  Verifying  : libcdio-paranoia-10.2+0.90-11.el7.x86_64                                                                                                                  2/58
+  Verifying  : libblockdev-swap-2.18-5.el7.x86_64                                                                                                                        3/58
+  Verifying  : dosfstools-3.0.20-10.el7.x86_64                                                                                                                           4/58
+  Verifying  : avahi-glib-0.6.31-20.el7.x86_64                                                                                                                           5/58
+  Verifying  : libnotify-0.7.7-1.el7.x86_64                                                                                                                              6/58
+  Verifying  : 1:emacs-filesystem-24.3-23.el7.noarch                                                                                                                     7/58
+  Verifying  : libpeas-gtk-1.22.0-1.el7.x86_64                                                                                                                           8/58
+  Verifying  : libudisks2-2.8.4-1.el7.x86_64                                                                                                                             9/58
+  Verifying  : 1:enchant-1.6.0-8.el7.x86_64                                                                                                                             10/58
+  Verifying  : device-mapper-multipath-libs-0.4.9-135.el7_9.x86_64                                                                                                      11/58
+  Verifying  : desktop-file-utils-0.23-2.el7.x86_64                                                                                                                     12/58
+  Verifying  : zenity-3.28.1-1.el7.x86_64                                                                                                                               13/58
+  Verifying  : libcdio-0.92-3.el7.x86_64                                                                                                                                14/58
+  Verifying  : pycairo-1.8.10-8.el7.x86_64                                                                                                                              15/58
+  Verifying  : libpeas-1.22.0-1.el7.x86_64                                                                                                                              16/58
+  Verifying  : cryptsetup-libs-2.0.3-6.el7.x86_64                                                                                                                       17/58
+  Verifying  : systemd-libs-219-78.el7_9.3.x86_64                                                                                                                       18/58
+  Verifying  : libblockdev-part-2.18-5.el7.x86_64                                                                                                                       19/58
+  Verifying  : systemd-219-78.el7_9.3.x86_64                                                                                                                            20/58
+  Verifying  : libblockdev-loop-2.18-5.el7.x86_64                                                                                                                       21/58
+  Verifying  : systemd-sysv-219-78.el7_9.3.x86_64                                                                                                                       22/58
+  Verifying  : libsecret-0.18.6-1.el7.x86_64                                                                                                                            23/58
+  Verifying  : gvfs-1.36.2-5.el7_9.x86_64                                                                                                                               24/58
+  Verifying  : hunspell-en-US-0.20121024-6.el7.noarch                                                                                                                   25/58
+  Verifying  : libaio-0.3.109-13.el7.x86_64                                                                                                                             26/58
+  Verifying  : udisks2-2.8.4-1.el7.x86_64                                                                                                                               27/58
+  Verifying  : libreport-filesystem-2.1.11-53.el7.centos.x86_64                                                                                                         28/58
+  Verifying  : json-c-0.11-4.el7_0.x86_64                                                                                                                               29/58
+  Verifying  : libatasmart-0.19-6.el7.x86_64                                                                                                                            30/58
+  Verifying  : mpfr-3.1.1-4.el7.x86_64                                                                                                                                  31/58
+  Verifying  : gtksourceview3-3.24.8-2.el7.x86_64                                                                                                                       32/58
+  Verifying  : mdadm-4.1-8.el7_9.x86_64                                                                                                                                 33/58
+  Verifying  : device-mapper-multipath-0.4.9-135.el7_9.x86_64                                                                                                           34/58
+  Verifying  : libblockdev-2.18-5.el7.x86_64                                                                                                                            35/58
+  Verifying  : python-gobject-3.22.0-1.el7_4.1.x86_64                                                                                                                   36/58
+  Verifying  : libgudev1-219-78.el7_9.3.x86_64                                                                                                                          37/58
+  Verifying  : libbluray-0.2.3-6.el7.x86_64                                                                                                                             38/58
+  Verifying  : libbytesize-1.2-1.el7.x86_64                                                                                                                             39/58
+  Verifying  : gvfs-client-1.36.2-5.el7_9.x86_64                                                                                                                        40/58
+  Verifying  : 2:gedit-3.28.1-3.el7.x86_64                                                                                                                              41/58
+  Verifying  : xml-common-0.6.3-39.el7.noarch                                                                                                                           42/58
+  Verifying  : libblockdev-mdraid-2.18-5.el7.x86_64                                                                                                                     43/58
+  Verifying  : libblockdev-utils-2.18-5.el7.x86_64                                                                                                                      44/58
+  Verifying  : hunspell-1.3.2-16.el7.x86_64                                                                                                                             45/58
+  Verifying  : volume_key-libs-0.3.9-9.el7.x86_64                                                                                                                       46/58
+  Verifying  : libblockdev-fs-2.18-5.el7.x86_64                                                                                                                         47/58
+  Verifying  : kpartx-0.4.9-135.el7_9.x86_64                                                                                                                            48/58
+  Verifying  : iso-codes-3.46-2.el7.noarch                                                                                                                              49/58
+  Verifying  : gdisk-0.8.10-3.el7.x86_64                                                                                                                                50/58
+  Verifying  : gcr-3.28.0-1.el7.x86_64                                                                                                                                  51/58
+  Verifying  : libblockdev-crypto-2.18-5.el7.x86_64                                                                                                                     52/58
+  Verifying  : gspell-1.6.1-1.el7.x86_64                                                                                                                                53/58
+  Verifying  : cryptsetup-libs-1.7.4-4.el7.x86_64                                                                                                                       54/58
+  Verifying  : kpartx-0.4.9-119.el7.x86_64                                                                                                                              55/58
+  Verifying  : systemd-sysv-219-57.el7.x86_64                                                                                                                           56/58
+  Verifying  : systemd-libs-219-57.el7.x86_64                                                                                                                           57/58
+  Verifying  : systemd-219-57.el7.x86_64                                                                                                                                58/58
+
+Installed:
+  gedit.x86_64 2:3.28.1-3.el7
+
+Dependency Installed:
+  avahi-glib.x86_64 0:0.6.31-20.el7                               desktop-file-utils.x86_64 0:0.23-2.el7           device-mapper-multipath.x86_64 0:0.4.9-135.el7_9
+  device-mapper-multipath-libs.x86_64 0:0.4.9-135.el7_9           dosfstools.x86_64 0:3.0.20-10.el7                emacs-filesystem.noarch 1:24.3-23.el7
+  enchant.x86_64 1:1.6.0-8.el7                                    gcr.x86_64 0:3.28.0-1.el7                        gdisk.x86_64 0:0.8.10-3.el7
+  gspell.x86_64 0:1.6.1-1.el7                                     gtksourceview3.x86_64 0:3.24.8-2.el7             gvfs.x86_64 0:1.36.2-5.el7_9
+  gvfs-client.x86_64 0:1.36.2-5.el7_9                             hunspell.x86_64 0:1.3.2-16.el7                   hunspell-en-US.noarch 0:0.20121024-6.el7
+  iso-codes.noarch 0:3.46-2.el7                                   json-c.x86_64 0:0.11-4.el7_0                     libaio.x86_64 0:0.3.109-13.el7
+  libatasmart.x86_64 0:0.19-6.el7                                 libblockdev.x86_64 0:2.18-5.el7                  libblockdev-crypto.x86_64 0:2.18-5.el7
+  libblockdev-fs.x86_64 0:2.18-5.el7                              libblockdev-loop.x86_64 0:2.18-5.el7             libblockdev-mdraid.x86_64 0:2.18-5.el7
+  libblockdev-part.x86_64 0:2.18-5.el7                            libblockdev-swap.x86_64 0:2.18-5.el7             libblockdev-utils.x86_64 0:2.18-5.el7
+  libbluray.x86_64 0:0.2.3-6.el7                                  libbytesize.x86_64 0:1.2-1.el7                   libcdio.x86_64 0:0.92-3.el7
+  libcdio-paranoia.x86_64 0:10.2+0.90-11.el7                      libgudev1.x86_64 0:219-78.el7_9.3                libnotify.x86_64 0:0.7.7-1.el7
+  libpeas.x86_64 0:1.22.0-1.el7                                   libpeas-gtk.x86_64 0:1.22.0-1.el7                libpeas-loader-python.x86_64 0:1.22.0-1.el7
+  libreport-filesystem.x86_64 0:2.1.11-53.el7.centos              libsecret.x86_64 0:0.18.6-1.el7                  libudisks2.x86_64 0:2.8.4-1.el7
+  mdadm.x86_64 0:4.1-8.el7_9                                      mpfr.x86_64 0:3.1.1-4.el7                        pycairo.x86_64 0:1.8.10-8.el7
+  python-gobject.x86_64 0:3.22.0-1.el7_4.1                        udisks2.x86_64 0:2.8.4-1.el7                     volume_key-libs.x86_64 0:0.3.9-9.el7
+  xml-common.noarch 0:0.6.3-39.el7                                zenity.x86_64 0:3.28.1-1.el7
+
+Dependency Updated:
+  cryptsetup-libs.x86_64 0:2.0.3-6.el7         kpartx.x86_64 0:0.4.9-135.el7_9         systemd.x86_64 0:219-78.el7_9.3         systemd-libs.x86_64 0:219-78.el7_9.3
+  systemd-sysv.x86_64 0:219-78.el7_9.3
+
+Complete!
+[admansible@ip-10-10-16-80 master-scripts]$
+
